@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F3FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loom Gallery"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#4B2E83"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"/>
+
+        <!-- Saree 1 -->
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/saree1"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pastel Silk Saree"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: ₹4500"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btnWhatsapp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inquire on WhatsApp"
+            android:backgroundTint="#25D366"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Saree 2 -->
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/saree2"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wedding Designer Saree"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: ₹6000"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btnWhatsapp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inquire on WhatsApp"
+            android:backgroundTint="#25D366"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

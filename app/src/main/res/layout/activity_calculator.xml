@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Material Cost"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Price"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result will appear here"
+        android:textSize="18sp"
+        android:paddingTop="20dp"/>
+
+</LinearLayout>
